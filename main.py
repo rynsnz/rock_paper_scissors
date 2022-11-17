@@ -47,6 +47,7 @@ if player_choice == 0:
         print('Computer chose:')
         print(plays[computer_choice])
         print('You win!')
+
 elif player_choice == 1:
     print(paper)
     if computer_choice == 0:
