@@ -47,6 +47,7 @@ if player_choice == 0:
         print('Computer chose:')
         print(plays[computer_choice])
         print('You win!')
+
 elif player_choice == 1:
     print(paper)
     if computer_choice == 0:
@@ -76,3 +77,5 @@ elif player_choice == 2:
         print('Computer chose:')
         print(plays[computer_choice])
         print('Draw!')
+
+else: print("You entered an invalid number. You lose!")
